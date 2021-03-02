@@ -1,4 +1,4 @@
-# Signupform
+# Signup form
 Signup Form Design using HTML CSS & JavaScript with animated button.
 
 ### Link
