@@ -15,25 +15,25 @@
         <form>
           <div class="forms">
             <label for="first-name">First Name</label>
-            <input type="text" name="firstName" id="first-name" />
+            <input type="text" name="firstName" id="first-name" data-vtest='firstName' required/>
           </div>
           <div class="forms">
             <label for="last-name">Last Name</label>
-            <input type="text" name="lastName" id="last-name" />
+            <input type="text" name="lastName" id="last-name" data-vtest='lastName' required/>
           </div>
           <div class="forms">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" data-vtest='email' required/>
           </div>
           <div class="forms">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" data-vtest='password' required/>
           </div>
-          <button type="submit" class="btn">Sign Up</button>
+          <button type="submit" class="btn" data-vtest='SignUpButton'> <a href="https://www.google.com/">Sign Up </a></button>
         </form>
       </div>
       <footer>
-        <p>Already a member? <a href="#">Log In</a></p>
+        <p>Already a member? <a href="https://www.google.com/" ata-vtest='LogIn'>Log In</a></p>
       </footer>
     </div>
   </body>
